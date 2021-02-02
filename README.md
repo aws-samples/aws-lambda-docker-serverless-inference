@@ -1,6 +1,6 @@
 # Pay as you go inference with AWS Lambda (Docker image)
 
-This repo contains resources to help you deploy Lambda functions based on Python Docker Image. 
+This repo contains resources to help you deploy Lambda functions based on Python and Java Docker Images. 
 
 The applications deployed illustrate how to perform inference using Lambda Function.
 
