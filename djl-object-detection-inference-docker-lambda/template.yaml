@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  djl-object-detection-inference-docker-lambda
+
+  SAM Template for djl-object-detection-inference-docker-lambda
+
+Resources:
+  DjlObjectDetectionInferenceFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      PackageType: Image
+      MemorySize: 2048
+      Timeout: 60
+    Metadata:
+      DockerTag: java8-gradle-v1
+      DockerContext: .
+      Dockerfile: Dockerfile
+
+Outputs:
+  DjlObjectDetectionInferenceFunction:
+    Description: "Hello World Lambda Function ARN"
+    Value: !GetAtt DjlObjectDetectionInferenceFunction.Arn
+  DjlObjectDetectionInferenceFunctionIamRole:
+    Description: "Implicit IAM Role created for Hello World function"
+    Value: !GetAtt DjlObjectDetectionInferenceFunctionRole.Arn
