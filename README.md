@@ -1,11 +1,8 @@
-## My Project
+# Pay as you go inference with AWS Lambda (Docker image)
 
-TODO: Fill this README out!
+This repo contains resources to help you deploy Lambda functions based on Python Docker Image. 
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+The applications deployed illustrate how to perform inference using Lambda Function.
 
 ## Security
 
