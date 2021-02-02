@@ -1,8 +1,8 @@
 # Serverless XGBoost Model Serving
 
-This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
-
 This examples illustrates how to serve XGBoost model on Lambda Function to predict breast cancer.
+
+This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - app - Code for the application's Lambda function.
 - train-code - Code for training XGBoost model based on breast cancer dataset.

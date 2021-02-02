@@ -1,8 +1,8 @@
 # Serverless Object Detection Model Serving with Deep Java Library (DJL) 
 
-This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
-
 This example illustrates how to serve TensorFlow Object Detection model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai).
+
+This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - src/main - Code for the application's Lambda function.
 - events - Invocation events that you can use to invoke the function.
