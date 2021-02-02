@@ -22,7 +22,7 @@ public class AppTest {
     App app = new App();
 
     Request request = new Request();
-    request.setInputImageUrl("https://djl-ai.s3.amazonaws.com/resources/images/kitten.jpg");
+    request.setInputImageUrl("https://github.com/awslabs/djl/raw/master/examples/src/test/resources/dog_bike_car.jpg");
     Gson gson = new Gson();
     byte[] buf = gson.toJson(request).getBytes(StandardCharsets.UTF_8);
 
