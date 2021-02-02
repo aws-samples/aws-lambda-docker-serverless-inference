@@ -248,3 +248,5 @@ $RECYCLE.BIN/
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
+xgboost-inference-docker-lambda/.aws-sam/build.toml
+xgboost-inference-docker-lambda/samconfig.toml
