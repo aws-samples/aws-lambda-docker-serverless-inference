@@ -31,9 +31,6 @@ public class AppTest {
     app.handleRequest(is, os, context);
     String result = os.toString(StandardCharsets.UTF_8.name());
 
-    Type type = new TypeToken<List<Classifications.Classification>>() {}.getType();
-    List<Classifications.Classification> list = gson.fromJson(result, type);
-    Assert.assertNotNull(list);
-    Assert.assertEquals(list.get(0).getClassName(), "n02123045 tabby, tabby cat");
+    Assert.assertNotNull(result);
   }
 }
