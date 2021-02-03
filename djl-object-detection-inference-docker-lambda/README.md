@@ -58,7 +58,7 @@ djl-object-detection-inference-docker-lambda$ sam local invoke DjlObjectDetectio
 
 ## Testing your Lambda function in the Cloud
 
-1. In the Lambda console, select Configure test events from the Test events dropdown.
+1. In the [Lambda Console](https://console.aws.amazon.com/lambda/), select Configure test events from the Test events dropdown.
 2. For Event Name, enter InferenceTestEvent.
 3. Copy the event JSON from [here](./events/event.json) and paste in the dialog box.
 4. Choose _**Create**_.
