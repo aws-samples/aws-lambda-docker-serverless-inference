@@ -19,7 +19,7 @@ Resources:
 
 Outputs:
   PyTorchInferenceFunction:
-    Description: "XGBoostInference Lambda Function ARN"
+    Description: "PyTorchInference Lambda Function ARN"
     Value: !GetAtt PyTorchInferenceFunction.Arn
   PyTorchInferenceFunctionIamRole:
     Description: "Implicit IAM Role created for PyTorchInference function"

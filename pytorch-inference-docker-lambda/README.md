@@ -55,6 +55,20 @@ Run functions locally and invoke them with the `sam local invoke` command.
 ```bash
 pytorch-inference-docker-lambda$ sam local invoke PyTorchInferenceFunction --event events/event.json
 ```
+## Testing your Lambda function in the Cloud
+
+1. In the [Lambda Console](https://console.aws.amazon.com/lambda/), select Configure test events from the Test events dropdown.
+2. For Event Name, enter InferenceTestEvent.
+3. Copy the event JSON from [here](./events/event.json) and paste in the dialog box.
+4. Choose _**Create**_.
+
+![Configure test event](../img/pytorch_configure_test_event.png)
+
+After saving, you see InferenceTestEvent in the Test list. Now choose _**Test**_.
+
+You see the Lambda function inference result, log output, and duration:
+
+![Lambda execution result](../img/pytorch_execution_result.png)
 
 ## Fetch, tail, and filter Lambda function logs
 
