@@ -301,3 +301,4 @@ pytorch-inference-docker-lambda/.aws-sam/build.toml
 pytorch-inference-docker-lambda/samconfig.toml
 tensorflow-inference-docker-lambda/samconfig.toml
 tensorflow-inference-docker-lambda/template.yaml
+djl-object-detection-inference-docker-lambda/samconfig.toml
