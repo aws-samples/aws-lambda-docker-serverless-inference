@@ -25,7 +25,11 @@ The repository contains the following resources:
 - **TensorFlow resources:**  
 
   - [**Serverless TensorFlow Model Serving**](tensorflow-inference-docker-lambda):  This examples illustrates how to serve TensorFlow model on Lambda Function for Object Detection.
-    
+
+- **PyTorch resources:**  
+
+  - [**PyTorch TensorFlow Model Serving**](pytorch-inference-docker-lambda):  This examples illustrates how to serve PyTorch model on Lambda Function for Image Classification.
+        
 - **Deep Java Library (DJL) resources:**  
 
   - [**Serverless Object Detection Model Serving with Deep Java Library (DJL)**](djl-object-detection-inference-docker-lambda):  This example illustrates how to serve TensorFlow Object Detection model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai)..   
