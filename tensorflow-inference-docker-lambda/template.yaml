@@ -19,7 +19,7 @@ Resources:
 
 Outputs:
   TensorFlowInferenceFunction:
-    Description: "XGBoostInference Lambda Function ARN"
+    Description: "TensorFlowInference Lambda Function ARN"
     Value: !GetAtt TensorFlowInferenceFunction.Arn
   TensorFlowInferenceFunctionIamRole:
     Description: "Implicit IAM Role created for TensorFlowInference function"
