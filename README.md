@@ -2,7 +2,7 @@
 
 This repository contains resources to help you deploy Lambda functions based on Python and Java Docker Images. 
 
-The applications deployed illustrate how to perform inference using Lambda Function.
+The applications deployed illustrate how to perform inference for XGBoost, TensorFlow and PyTorch models using Lambda Function.
 
 ## Overview
 
