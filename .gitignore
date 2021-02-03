@@ -296,3 +296,4 @@ djl-object-detection-inference-docker-lambda/.idea/jarRepositories.xml
 djl-object-detection-inference-docker-lambda/.idea/misc.xml
 djl-object-detection-inference-docker-lambda/.idea/vcs.xml
 djl-object-detection-inference-docker-lambda/.idea/workspace.xml
+tensorflow-inference-docker-lambda/.aws-sam/build.toml
