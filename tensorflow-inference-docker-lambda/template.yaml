@@ -10,8 +10,8 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       PackageType: Image
-      MemorySize: 4096
-      Timeout: 120
+      MemorySize: 1536
+      Timeout: 60
     Metadata:
       DockerTag: python3.7-v1
       DockerContext: .
