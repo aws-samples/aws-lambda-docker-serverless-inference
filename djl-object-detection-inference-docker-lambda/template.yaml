@@ -19,8 +19,8 @@ Resources:
 
 Outputs:
   DjlObjectDetectionInferenceFunction:
-    Description: "Hello World Lambda Function ARN"
+    Description: "DjlObjectDetectionInference Lambda Function ARN"
     Value: !GetAtt DjlObjectDetectionInferenceFunction.Arn
   DjlObjectDetectionInferenceFunctionIamRole:
-    Description: "Implicit IAM Role created for Hello World function"
+    Description: "Implicit IAM Role created for DjlObjectDetectionInference function"
     Value: !GetAtt DjlObjectDetectionInferenceFunctionRole.Arn

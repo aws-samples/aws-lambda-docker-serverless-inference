@@ -1,6 +1,6 @@
-# Serverless TensorFlow Model Serving
+# Serverless PyTorch Model Serving
 
-This examples illustrates how to serve TensorFlow model on Lambda Function for Object Detection.
+This examples illustrates how to serve PyTorch model on Lambda Function for Image Classification.
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
@@ -44,7 +44,7 @@ You can find your API Gateway Endpoint URL in the output values displayed after 
 Build your application with the `sam build` command.
 
 ```bash
-tensorflow-inference-docker-lambda$ sam build
+pytorch-inference-docker-lambda$ sam build
 ```
 
 The SAM CLI builds a docker image from a Dockerfile and then installs dependencies defined in `requirements.txt` inside the docker image. The processed template file is saved in the `.aws-sam/build` folder.
@@ -54,7 +54,7 @@ Test a single function by invoking it directly with a test event. An event is a 
 Run functions locally and invoke them with the `sam local invoke` command.
 
 ```bash
-tensorflow-inference-docker-lambda$ sam local invoke TensorFlowInferenceFunction --event events/event.json
+pytorch-inference-docker-lambda$ sam local invoke PyTorchInferenceFunction --event events/event.json
 ```
 
 ## Fetch, tail, and filter Lambda function logs
@@ -64,7 +64,7 @@ To simplify troubleshooting, SAM CLI has a command called `sam logs`. `sam logs`
 `NOTE`: This command works for all AWS Lambda functions; not just the ones you deploy using SAM.
 
 ```bash
-tensorflow-inference-docker-lambda$ sam logs -n TensorFlowInferenceFunction --stack-name tensorflow-inference-docker-lambda --tail
+pytorch-inference-docker-lambda$ sam logs -n PyTorchInferenceFunction --stack-name pytorch-inference-docker-lambda --tail
 ```
 
 You can find more information and examples about filtering Lambda function logs in the [SAM CLI Documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
@@ -75,10 +75,9 @@ You can find more information and examples about filtering Lambda function logs 
 To delete the sample application that you created, use the AWS CLI. Assuming you used your project name for the stack name, you can run the following:
 
 ```bash
-aws cloudformation delete-stack --stack-name tensorflow-inference-docker-lambda
+aws cloudformation delete-stack --stack-name pytorch-inference-docker-lambda
 ```
 
 ## Resources
 
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
-
