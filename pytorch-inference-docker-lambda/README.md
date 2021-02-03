@@ -5,6 +5,7 @@ This examples illustrates how to serve PyTorch model on Lambda Function for Imag
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - app - Code for the application's Lambda function.
+- model - Code for downloading and saving resnet34 pre-trained model.
 - events - Invocation events that you can use to invoke the function.
 - template.yaml - A template that defines the application's AWS resources.
 
