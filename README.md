@@ -1,6 +1,6 @@
 # Pay as you go inference with AWS Lambda (Docker image)
 
-This repository contains resources to help you deploy Lambda functions based on Python and Java Docker Images. 
+This repository contains resources to help you deploy Lambda functions based on Python and Java [Docker Images](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/). 
 
 The applications deployed illustrate how to perform inference for XGBoost, TensorFlow and PyTorch models using Lambda Function.
 
