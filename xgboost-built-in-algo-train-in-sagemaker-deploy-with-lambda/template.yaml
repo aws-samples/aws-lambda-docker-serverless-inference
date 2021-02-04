@@ -11,7 +11,7 @@ Resources:
     Properties:
       PackageType: Image
       MemorySize: 256
-      Timeout: 30
+      Timeout: 60
       Policies:
         - AmazonS3FullAccess
     Metadata:

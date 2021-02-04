@@ -11,7 +11,7 @@ Resources:
     Properties:
       PackageType: Image
       MemorySize: 256
-      Timeout: 30
+      Timeout: 60
     Metadata:
       DockerTag: python3.7-v1
       DockerContext: .
