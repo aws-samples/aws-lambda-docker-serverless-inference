@@ -21,7 +21,7 @@ The repository contains the following resources:
 - **XGBoost resources:**  
 
   - [**Serverless XGBoost Model Serving**](xgboost-inference-docker-lambda):  This examples illustrates how to serve XGBoost model on Lambda Function to predict breast cancer.
-  - [**Train XGBoost built-in algorithm in SageMaker, inference with AWS Lambda**](xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda):  This examples illustrates how to target Direct Marketing with Amazon SageMaker XGBoost built-in algorithm. You train the model using SageMaker and inference with AWS Lambda..
+  - [**Train XGBoost built-in algorithm in SageMaker, inference with AWS Lambda**](xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda):  This examples illustrates how to target Direct Marketing with Amazon SageMaker XGBoost built-in algorithm. You train the model using SageMaker and inference with AWS Lambda.
   
 - **TensorFlow resources:**  
 
