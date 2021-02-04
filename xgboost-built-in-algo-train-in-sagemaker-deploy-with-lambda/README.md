@@ -20,7 +20,7 @@ You can run this notebook in [SageMaker Notebook instance](https://docs.aws.amaz
 
 This notebooks is identical to the original [Targeting Direct Marketing with Amazon SageMaker XGBoost](https://github.com/aws/amazon-sagemaker-examples/blob/master/introduction_to_applying_machine_learning/xgboost_direct_marketing/xgboost_direct_marketing_sagemaker.ipynb) notebook, except the fact that you'll deploy the model in Lambda function.
 
-## Copy XGBoost model file and test data location in S3
+## Copy XGBoost model file and test data locations in S3
 Copy the XGBoost model and test data location in S3. This is required in order to be able to download the model to your computer, for the Lambda function to use, and to configure the Lambda test event.  
 
 Copy model and test data location in S3 from the last two cells in the notebook
