@@ -23,12 +23,12 @@ This notebooks is identical to the original [Targeting Direct Marketing with Ama
 ## Copy XGBoost model file and test data locations in S3
 Copy the XGBoost model and test data location in S3. This is required in order to be able to download the model to your computer, for the Lambda function to use, and to configure the Lambda test event.  
 
-Copy model and test data location in S3 from the last two cells in the notebook
+Copy the model and test data locations in S3 from the last two cells in the notebook
 
 ![Copy model and test data location in S3](../img/xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda-copy-outputs.png)
 
 ## Download XGBoost model file to your computer
-Copy the XGBoost model file to `model` folder on your computer.
+Using [AWS CLI](https://aws.amazon.com/cli/), copy the XGBoost model file to `model` folder on your computer.
 
 ```bash
 xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda$ aws s3 cp <MODEL_LOCATION_ON_S3> ./model/
