@@ -1,4 +1,4 @@
-# Pay as you go inference with AWS Lambda (Docker image)
+## Pay as you go inference with AWS Lambda (Docker image)
 
 This repository contains resources to help you deploy Lambda functions based on Python and Java [Docker Images](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/). 
 
@@ -35,11 +35,23 @@ The repository contains the following resources:
 
   - [**Serverless Object Detection Model Serving with Deep Java Library (DJL)**](djl-object-detection-inference-docker-lambda):  This example illustrates how to serve TensorFlow Object Detection model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai)..   
 
+### Installation Instructions
 
+1. [Create an AWS account](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html) if you do not already have one and login.
 
-## Security
+2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+3. [Install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-gui) and [Configure AWS credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-config).
+
+4. Clone the repo onto your local development machine using `git clone`.
+
+5. Open the project in any IDE of your choice in order to run the example Python and Java files.
+
+6. Follow the instructions in each of the example README.md file.
+
+## Questions?
+
+Please contact [@e_sela](https://twitter.com/e_sela) or raise an issue on this repo.
 
 ## License
 
