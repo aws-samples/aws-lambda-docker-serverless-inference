@@ -1,4 +1,5 @@
 ## Pay as you go inference with AWS Lambda (Docker image)
+![AWS ML](img/aws_ml.png) ![AWS Lambda](img/aws_lambda.png)
 
 This repository contains resources to help you deploy Lambda functions based on Python and Java [Docker Images](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/). 
 
