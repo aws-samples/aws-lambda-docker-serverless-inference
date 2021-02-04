@@ -42,7 +42,7 @@ xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda$ aws s3 cp s3://sage
 ## Prepare test event for the Lambda
 Update `bucket` and `prefix` values in [Lambda test event](./events/event.json) with the ones you copied form the IPyhton notebook.
 
-This is the location of the test csv file for the Lambda to download from S3 and perform inference.
+This is the location of the test csv file for the Lambda function to download from S3 and perform inference.
 
 ```json
 {
