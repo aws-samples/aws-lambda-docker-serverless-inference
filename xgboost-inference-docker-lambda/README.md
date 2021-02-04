@@ -1,4 +1,4 @@
-# Serverless XGBoost Model Serving
+## Serverless XGBoost Model Serving
 
 This examples illustrates how to serve XGBoost model on Lambda Function to predict breast cancer.
 
