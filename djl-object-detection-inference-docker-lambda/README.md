@@ -1,4 +1,4 @@
-# Serverless Object Detection Model Serving with Deep Java Library (DJL) 
+## Serverless Object Detection Model Serving with Deep Java Library (DJL) 
 
 This example illustrates how to serve TensorFlow Object Detection model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai).
 
