@@ -1,0 +1,5 @@
+{
+  "bucket":"<REPLACE_WITH_YOUR_BUCKET_FROM_IPYTHON_NOTEBOOK>",
+  "prefix":"<REPLACE_WITH_YOUR_PREFIX_FROM_IPYTHON_NOTEBOOK>",
+  "file": "test.csv"
+}

@@ -1,0 +1,4 @@
+boto3
+xgboost==1.2.1
+pandas
+sklearn

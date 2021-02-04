@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  xgboost-direct-marketing-inference-docker-lambda
+
+  SAM Template for xgboost-direct-marketing-inference-docker-lambda
+
+Resources:
+  XGBoostDMInferenceFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      PackageType: Image
+      MemorySize: 256
+      Timeout: 30
+      Policies:
+        - AmazonS3FullAccess
+    Metadata:
+      DockerTag: python3.7-v1
+      DockerContext: .
+      Dockerfile: Dockerfile
+
+Outputs:
+  XGBoostDMInferenceFunction:
+    Description: "XGBoostDMInference Lambda Function ARN"
+    Value: !GetAtt XGBoostDMInferenceFunction.Arn
+  XGBoostDMInferenceFunctionIamRole:
+    Description: "Implicit IAM Role created for XGBoostDMInference function"
+    Value: !GetAtt XGBoostDMInferenceFunction.Arn
