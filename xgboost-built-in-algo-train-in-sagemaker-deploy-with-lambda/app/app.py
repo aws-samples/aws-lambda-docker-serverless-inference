@@ -12,8 +12,9 @@ model = pkl.load(open('xgboost-model', 'rb'))
 def handler(event, context):
     print('Received event: ' + json.dumps(event, indent=2))
 
-    s3.download_file(event["bucket"], event["prefix"] + event["file"], event["file"])
-    data_csv = pd.read_csv(event["file"])
+    destination = '/tmp/' + event["file"]
+    s3.download_file(event["bucket"], event["prefix"] + event["file"], destination)
+    data_csv = pd.read_csv(destination)
 
     dtest = xgb.DMatrix(data_csv.drop(['y_no', 'y_yes'], axis=1).values)
     predictions_local = model.predict(dtest)
