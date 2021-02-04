@@ -1,4 +1,4 @@
-# Serverless PyTorch Model Serving
+## Serverless PyTorch Model Serving
 
 This examples illustrates how to serve PyTorch model on Lambda Function for Image Classification.
 
