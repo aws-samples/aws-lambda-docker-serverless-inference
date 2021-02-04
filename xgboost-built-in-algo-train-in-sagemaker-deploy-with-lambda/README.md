@@ -1,6 +1,6 @@
 # Train XGBoost built-in algorithm in SageMaker, inference with AWS Lambda
 
-This examples illustrates how to target Direct Marketing with Amazon SageMaker XGBoost built-in algorithm, and inference with AWS Lambda.
+This examples illustrates how to target Direct Marketing with Amazon SageMaker XGBoost built-in algorithm. You train the model using SageMaker and inference with AWS Lambda.
 
 You'll first train a SageMaker XGBoost built-in algorithm using the IPython notebook in [SageMaker Notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html). And then download the model to your computer, and build and deploy the Lambda function to perform the inference.
 
