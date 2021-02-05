@@ -30,7 +30,7 @@ The repository contains the following resources:
 
 - **PyTorch resources:**  
 
-  - [**PyTorch TensorFlow Model Serving**](pytorch-inference-docker-lambda):  This examples illustrates how to serve PyTorch model on Lambda Function for Image Classification.
+  - [**Serverless PyTorch Model Serving**](pytorch-inference-docker-lambda):  This examples illustrates how to serve PyTorch model on Lambda Function for Image Classification.
         
 - **Deep Java Library (DJL) resources:**  
 
