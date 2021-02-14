@@ -306,3 +306,5 @@ xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda/model/xgboost-model
 xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda/model/model.tar.gz
 xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda/.aws-sam/build.toml
 xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda/samconfig.toml
+tensorflow-train-in-sagemaker-deploy-with-lambda/container/model/model.tar.gz
+tensorflow-train-in-sagemaker-deploy-with-lambda/.aws-sam/build.toml

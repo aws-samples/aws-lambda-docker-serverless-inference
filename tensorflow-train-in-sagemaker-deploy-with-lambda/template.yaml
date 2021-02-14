@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  tensorflow-mnist-inference-docker-lambda
+
+  SAM Template for tensorflow-mnist-inference-docker-lambda
+
+Resources:
+  TensorFlowMnistInferenceFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      PackageType: Image
+      MemorySize: 1536
+      Timeout: 120
+    Metadata:
+      DockerTag: python3.7-v1
+      DockerContext: ./container/
+      Dockerfile: Dockerfile
+
+Outputs:
+  TensorFlowMnistInferenceFunction:
+    Description: "TensorFlowMnistInference Lambda Function ARN"
+    Value: !GetAtt TensorFlowMnistInferenceFunction.Arn
+  TensorFlowInferenceFunctionIamRole:
+    Description: "Implicit IAM Role created for TensorFlowMnistInference function"
+    Value: !GetAtt TensorFlowMnistInferenceFunction.Arn
