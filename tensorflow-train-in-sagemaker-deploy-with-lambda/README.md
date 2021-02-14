@@ -11,9 +11,12 @@ This project contains source code and supporting files for a serverless applicat
 
 The application uses several AWS resources, including Lambda functions. These resources are defined in the `template.yaml` file in this project. You can update the template to add AWS resources through the same deployment process that updates your application code.
 
-## Run `tensorflow_script_mode_training_in_sagemaker_and_serving_with_lambda.ipynb` notebook
+## Train a TensorFlow classification model on the MNIST dataset 
+You'll be running the [TensorFlow script mode training with SageMaker, and serving with AWS Lambda](./tensorflow_script_mode_training_in_sagemaker_and_serving_with_lambda.ipynb) notebook to train a TensorFlow classification model on the MNIST dataset.
 
-You can run the [notebook](./tensorflow_script_mode_training_in_sagemaker_and_serving_with_lambda.ipynb), step by step to train on MNIST dataset with SageMaker, and deploy with Lambda function. After creating the Lambda function, you'll evaluate the model, calling the Lambda function with testing data, and comparing to the training data.
+You can run this notebook in [SageMaker Notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html)
+
+This notebooks is identical to the original [TensorFlow script mode training and serving](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker-python-sdk/tensorflow_script_mode_training_and_serving/tensorflow_script_mode_training_and_serving.ipynb) notebook, except the fact that you'll deploy the model in Lambda function.
 
 ## Deploy the sample application
 
