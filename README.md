@@ -27,6 +27,7 @@ The repository contains the following resources:
 - **TensorFlow resources:**  
 
   - [**Serverless TensorFlow Model Serving**](tensorflow-inference-docker-lambda):  This examples illustrates how to serve TensorFlow model on Lambda Function for Object Detection.
+  - [**Train a TensorFlow algorithm in SageMaker, inference with AWS Lambda**](tensorflow-train-in-sagemaker-deploy-with-lambda):  This examples illustrates how to use a TensorFlow Python script to train a classification model on the MNIST dataset. You train the model using SageMaker and inference with AWS Lambda.
 
 - **PyTorch resources:**  
 
