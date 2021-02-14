@@ -2,14 +2,11 @@
 
 This examples illustrates how to use a TensorFlow Python script to train a classification model on the MNIST dataset. You train the model using SageMaker and inference with AWS Lambda.
 
-This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
+This project contains source code and supporting files for a serverless application that you can deploy with the notebook. It includes the following files and folders.
 
 - tensorflow_script_mode_training_in_sagemaker_and_serving_with_lambda.ipynb - Notebook to run training with SageMaker, and deploy the Lambda function.
 - container - The container directory has all the components you need to package the sample Lambda function.
 - events - Invocation events that you can use to invoke the function.
-- template.yaml - A template that defines the application's AWS resources.
-
-The application uses several AWS resources, including Lambda functions. These resources are defined in the `template.yaml` file in this project. You can update the template to add AWS resources through the same deployment process that updates your application code.
 
 ## Train a TensorFlow classification model on the MNIST dataset 
 You'll be running the [TensorFlow script mode training with SageMaker, and serving with AWS Lambda](./tensorflow_script_mode_training_in_sagemaker_and_serving_with_lambda.ipynb) notebook to train a TensorFlow classification model on the MNIST dataset.
