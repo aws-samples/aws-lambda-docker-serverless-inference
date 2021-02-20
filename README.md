@@ -19,6 +19,10 @@ You can forget all about the resource handling needed for the parallel requests 
 
 The repository contains the following resources:
 
+- **scikit-learn resources:**  
+
+  - [**Serverless scikit-learn Model Serving**](scikit-learn-inference-docker-lambda):  This examples illustrates how to serve scikit-learn model on Lambda Function to predict based on iris dataset.
+
 - **XGBoost resources:**  
 
   - [**Serverless XGBoost Model Serving**](xgboost-inference-docker-lambda):  This examples illustrates how to serve XGBoost model on Lambda Function to predict breast cancer.
