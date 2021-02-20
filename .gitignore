@@ -308,3 +308,5 @@ xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda/.aws-sam/build.toml
 xgboost-built-in-algo-train-in-sagemaker-deploy-with-lambda/samconfig.toml
 tensorflow-train-in-sagemaker-deploy-with-lambda/container/model/model.tar.gz
 tensorflow-train-in-sagemaker-deploy-with-lambda/.aws-sam/build.toml
+scikit-learn-inference-docker-lambda/.aws-sam/build.toml
+scikit-learn-inference-docker-lambda/samconfig.toml
