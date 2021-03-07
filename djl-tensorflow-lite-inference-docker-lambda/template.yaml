@@ -1,0 +1,26 @@
+DjlTFLiteInferenceFunctionAWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  djl-tf-lite-image-classification-docker-lambda
+
+  SAM Template for djl-tf-lite-image-classification-docker-lambda
+
+Resources:
+  DjlTFLiteInferenceFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      PackageType: Image
+      MemorySize: 1536
+      Timeout: 120
+    Metadata:
+      DockerTag: java8-gradle-v1
+      DockerContext: .
+      Dockerfile: Dockerfile
+
+Outputs:
+  DjlTFLiteInferenceFunction:
+    Description: "DjlTFLiteInference Lambda Function ARN"
+    Value: !GetAtt DjlTFLiteInferenceFunction.Arn
+  DjlTFLiteInferenceFunctionIamRole:
+    Description: "Implicit IAM Role created for DjlTFLiteInference function"
+    Value: !GetAtt DjlTFLiteInferenceFunctionRole.Arn
