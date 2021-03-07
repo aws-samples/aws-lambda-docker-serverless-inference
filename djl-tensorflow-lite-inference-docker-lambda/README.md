@@ -63,13 +63,13 @@ djl-tensorflow-lite-inference-docker-lambda$ sam local invoke DjlTFLiteInference
 3. Copy the event JSON from [here](./events/event.json) and paste in the dialog box.
 4. Choose _**Create**_.
 
-![Configure test event](../img/djl_object_detection_configure_test_event.png)
+![Configure test event](../img/djl_tensorflow_lite_configure_test_event.png)
 
 After saving, you see InferenceTestEvent in the Test list. Now choose _**Test**_.
 
 You see the Lambda function inference result, log output, and duration:
 
-![Lambda execution result](../img/djl_object_detection_execution_result.png)
+![Lambda execution result](../img/djl_tensorflow_lite_execution_result.png)
 
 ## Fetch, tail, and filter Lambda function logs
 

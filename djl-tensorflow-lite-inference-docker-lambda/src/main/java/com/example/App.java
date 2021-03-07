@@ -57,7 +57,7 @@ public class App implements RequestStreamHandler {
 
             Classifications classifications = predictor.predict(image);
 
-            logger.log("classifications: " + classifications);
+            logger.log("Classifications: " + classifications);
             os.write(GSON.toJson(classifications.best()).getBytes(StandardCharsets.UTF_8));
 
     } catch (RuntimeException | ModelException | TranslateException e) {
