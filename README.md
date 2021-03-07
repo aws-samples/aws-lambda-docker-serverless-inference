@@ -41,7 +41,7 @@ The repository contains the following resources:
 
   - [**Serverless Object Detection Model Serving with Deep Java Library (DJL)**](djl-object-detection-inference-docker-lambda):  This example illustrates how to serve TensorFlow Object Detection model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai).
     
-  - [**Serverless Tensorflow Lite Image Classification Model Serving with Deep Java Library (DJL)**](djl-tensorflow-lite-inference-docker-lambda):  This example illustrates how to serve TensorFlow Lite Image Classification model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai).
+  - [**Serverless TensorFlow Lite Image Classification Model Serving with Deep Java Library (DJL)**](djl-tensorflow-lite-inference-docker-lambda):  This example illustrates how to serve TensorFlow Lite Image Classification model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai).
 
 ### Installation Instructions
 
