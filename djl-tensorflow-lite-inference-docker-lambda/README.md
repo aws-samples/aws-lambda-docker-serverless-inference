@@ -1,4 +1,4 @@
-## Serverless Tensorflow Lite Image Classification Model Serving with Deep Java Library (DJL) 
+## Serverless TensorFlow Lite Image Classification Model Serving with Deep Java Library (DJL) 
 
 This example illustrates how to serve TensorFlow Lite Image Classification model on Lambda Function using [Deep Java Library (DJL)](http://djl.ai).
 
