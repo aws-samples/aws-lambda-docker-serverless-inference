@@ -325,8 +325,3 @@ djl-tensorflow-lite-inference-docker-lambda/.idea/gradle.xml
 djl-tensorflow-lite-inference-docker-lambda/.idea/jarRepositories.xml
 djl-tensorflow-lite-inference-docker-lambda/.idea/misc.xml
 djl-tensorflow-lite-inference-docker-lambda/.idea/vcs.xml
-djl-tensorflow-lite-inference-docker-lambda/gradle/lambda-build-init.gradle
-djl-tensorflow-lite-inference-docker-lambda/gradle/wrapper/gradle-wrapper.jar
-djl-tensorflow-lite-inference-docker-lambda/gradle/wrapper/gradle-wrapper.properties
-djl-tensorflow-lite-inference-docker-lambda/gradlew
-djl-tensorflow-lite-inference-docker-lambda/gradlew.bat
