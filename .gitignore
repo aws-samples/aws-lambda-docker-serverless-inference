@@ -335,3 +335,5 @@ djl-tensorflow-lite-inference-docker-lambda/.gradle/5.1.1/javaCompile/classAnaly
 djl-tensorflow-lite-inference-docker-lambda/.gradle/5.1.1/fileHashes/resourceHashesCache.bin
 djl-tensorflow-lite-inference-docker-lambda/.gradle/5.1.1/fileHashes/fileHashes.bin
 djl-tensorflow-lite-inference-docker-lambda/.gradle/5.1.1/fileContent/fileContent.lock
+hebert-sentiment-analysis-inference-docker-lambda/.aws-sam/build.toml
+hebert-sentiment-analysis-inference-docker-lambda/samconfig.toml
