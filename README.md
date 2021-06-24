@@ -36,6 +36,7 @@ The repository contains the following resources:
 - **PyTorch resources:**  
 
   - [**Serverless PyTorch Model Serving**](pytorch-inference-docker-lambda):  This examples illustrates how to serve PyTorch model on Lambda Function for Image Classification.
+  - [**Serverless HeBERT Model Serving for sentiment analysis in Hebrew**](hebert-sentiment-analysis-inference-docker-lambda):  This example illustrates how to serve HeBERT model on Lambda Function for sentiment analysis in Hebrew.
         
 - **Deep Java Library (DJL) resources:**  
 
