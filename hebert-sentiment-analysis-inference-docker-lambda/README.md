@@ -16,6 +16,8 @@ Chriqui, A., & Yahav, I. (2021). HeBERT & HebEMO: a Hebrew BERT Model and a Tool
 }
 ```
 
+[Link to GitHub repository](https://github.com/avichaychriqui/HeBERT)
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - app - Code for the application's Lambda function.
