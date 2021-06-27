@@ -1,10 +1,10 @@
-## Serverless HeBERT Model Serving for sentiment analysis in Hebrew
+## Serverless HeBERT Model Serving for Sentiment Analysis in Hebrew
 
-This example illustrates how to serve HeBERT model on Lambda Function for sentiment analysis in Hebrew.
+This example illustrates how to serve HeBERT model on a Lambda Function for sentiment analysis in Hebrew.
 
 ### HeBERT: Pre-trained BERT for Polarity Analysis and Emotion Recognition
 
-HeBERT is a Hebrew pretrained language model. It is based on Google's BERT architecture and it is BERT-Base config
+HeBERT is a Hebrew pretrained language model. It is based on Google's BERT architecture and it is BERT-Based config.
 
 Chriqui, A., & Yahav, I. (2021). HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition. arXiv preprint arXiv:2102.01909.
 ```
@@ -18,7 +18,7 @@ Chriqui, A., & Yahav, I. (2021). HeBERT & HebEMO: a Hebrew BERT Model and a Tool
 
 [Link to GitHub repository](https://github.com/avichaychriqui/HeBERT)
 
-This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
+This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders:
 
 - app - Code for the application's Lambda function.
 - events - Invocation events that you can use to invoke the function.
