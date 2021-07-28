@@ -7,7 +7,7 @@ The applications deployed illustrate how to perform inference for scikit-learn, 
 
 ## Overview
 
-AWS Lambda is one of the most cost effective service that lets you run code without provisioning or managing servers. 
+AWS Lambda is one of the most cost-effective service that lets you run code without provisioning or managing servers. 
 
 It offers many advantages when working with serverless infrastructure. When you break down the logic of your machine learning service into a single Lambda function for a single request, things become much simpler and easy to scale. 
 
