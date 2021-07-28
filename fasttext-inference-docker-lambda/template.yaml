@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  scikit-learn-inference-docker-lambda
+
+  SAM Template for scikit-learn-inference-docker-lambda
+
+Resources:
+  FastTextInferenceFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      PackageType: Image
+      MemorySize: 256
+      Timeout: 60
+    Metadata:
+      DockerTag: python3.7-v1
+      DockerContext: .
+      Dockerfile: Dockerfile
+
+Outputs:
+  FastTextInferenceFunction:
+    Description: "FastTextInference Lambda Function ARN"
+    Value: !GetAtt FastTextInferenceFunction.Arn
+  FastTextInferenceFunctionIamRole:
+    Description: "Implicit IAM Role created for FastTextInference function"
+    Value: !GetAtt FastTextInferenceFunction.Arn
