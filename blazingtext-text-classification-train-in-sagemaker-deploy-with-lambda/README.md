@@ -2,6 +2,8 @@
 
 This example illustrates how to use a BlazingText text classification training with SageMaker, and serving with AWS Lambda.
 
+For both supervised (text classification) and unsupervised (Word2Vec) modes, the binaries (*.bin) produced by BlazingText can be cross-consumed by fastText and vice versa. You can use binaries produced by BlazingText by fastText. Likewise, you can host the model binaries created with fastText using BlazingText.
+
 This project contains source code and supporting files for a serverless application that you can deploy with the notebook. It includes the following files and folders.
 
 - blazingtext-text-classification-train-in-sagemaker-deploy-with-lambda.ipynb - Notebook to run training with SageMaker, and deploy the Lambda function.
