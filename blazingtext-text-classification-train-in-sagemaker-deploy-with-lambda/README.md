@@ -13,7 +13,7 @@ You'll be running the [BlazingText text classification training with SageMaker, 
 
 You can run this notebook in [SageMaker Notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) 
 
-**Note: this notebook will not run on SageMaker Studio since you are building Docker Image.**
+**Note: this notebook will not run on SageMaker Studio since you are building a Docker Image.**
 
 This notebooks is identical to the original [BlazingText text classification](https://github.com/aws/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/blazingtext_text_classification_dbpedia/blazingtext_text_classification_dbpedia.ipynb) notebook, except the fact that you'll deploy the model in Lambda function.
 
