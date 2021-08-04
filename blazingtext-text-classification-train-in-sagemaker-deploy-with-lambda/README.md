@@ -1,6 +1,6 @@
 ## Train a BlazingText text classification algorithm in SageMaker, inference with AWS Lambda
 
-This examples illustrates how to use a BlazingText text classification training with SageMaker, and serving with AWS Lambda.
+This example illustrates how to use a BlazingText text classification training with SageMaker, and serving with AWS Lambda.
 
 This project contains source code and supporting files for a serverless application that you can deploy with the notebook. It includes the following files and folders.
 

@@ -1,6 +1,6 @@
 ## Train a TensorFlow algorithm in SageMaker, inference with AWS Lambda
 
-This examples illustrates how to use a TensorFlow Python script to train a classification model on the MNIST dataset. You train the model using SageMaker and inference with AWS Lambda.
+This example illustrates how to use a TensorFlow Python script to train a classification model on the MNIST dataset. You train the model using SageMaker and inference with AWS Lambda.
 
 This project contains source code and supporting files for a serverless application that you can deploy with the notebook. It includes the following files and folders.
 
