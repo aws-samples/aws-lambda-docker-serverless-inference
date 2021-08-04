@@ -10,7 +10,7 @@ This project contains source code and supporting files for a serverless applicat
 - container - The container directory has all the components you need to package the sample Lambda function.
 - events - Invocation events that you can use to invoke the function.
 
-## Train a TensorFlow classification model on the MNIST dataset 
+## Train a BlazingText text classification algorithm 
 You'll be running the [BlazingText text classification training with SageMaker, and serving with AWS Lambda](./blazingtext-text-classification-train-in-sagemaker-deploy-with-lambda.ipynb) notebook to train a TensorFlow classification model on the MNIST dataset.
 
 You can run this notebook in [SageMaker Notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) 
