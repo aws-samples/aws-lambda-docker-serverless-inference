@@ -14,3 +14,18 @@ You'll be running the [BlazingText text classification training with SageMaker, 
 You can run this notebook in [SageMaker Notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html)
 
 This notebooks is identical to the original [BlazingText text classification](https://github.com/aws/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/blazingtext_text_classification_dbpedia/blazingtext_text_classification_dbpedia.ipynb) notebook, except the fact that you'll deploy the model in Lambda function.
+
+## Testing your Lambda function in the Cloud
+
+1. In the [Lambda Console](https://console.aws.amazon.com/lambda/), select Configure test events from the Test events dropdown.
+2. For Event Name, enter InferenceTestEvent.
+3. Copy the event JSON from [here](./events/event.json) and paste in the dialog box.
+4. Choose _**Create**_.
+
+![Configure test event](../img/fasttext_configure_test_event.png)
+
+After saving, you see InferenceTestEvent in the Test list. Now choose _**Test**_.
+
+You see the Lambda function inference result, log output, and duration:
+
+![Lambda execution result](../img/fasttext_execution_result.png)
