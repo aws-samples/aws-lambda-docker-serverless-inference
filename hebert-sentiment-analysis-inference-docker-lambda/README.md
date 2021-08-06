@@ -73,7 +73,7 @@ hebert-sentiment-analysis-inference-docker-lambda$ sam local invoke HeBERTInfere
 ## Testing your Lambda function in the Cloud
 
 1. In the [Lambda Console](https://console.aws.amazon.com/lambda/), select your Lambda function, then, the `Test` tab, and configure the Test event.
-2. For Event Name, enter InferenceTestEvent.
+2. For Event Name, enter `InferenceTestEvent`.
 3. Copy the event JSON from [here](./events/event.json) and paste in the dialog box.
 4. Choose _**Test**_.
 
