@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "serverless-online-ml"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-u4zi9wx90nw3"
+s3_prefix = "serverless-online-ml"
+region = "eu-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["InferenceFunction=297249540483.dkr.ecr.eu-central-1.amazonaws.com/serverless-online-ml-ecr", "TrainingFunction=297249540483.dkr.ecr.eu-central-1.amazonaws.com/serverless-online-ml-ecr"]
