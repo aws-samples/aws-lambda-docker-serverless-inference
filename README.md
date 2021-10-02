@@ -26,7 +26,7 @@ The repository contains the following resources:
 - **XGBoost resources:**  
 
   - [**Serverless XGBoost Model Serving**](xgboost-inference-docker-lambda):  This examples illustrates how to serve XGBoost model on Lambda Function to predict breast cancer.
-  
+  - [**Serverless XGBoost Model Serving on Graviton2 architecture**](xgboost-inference-arm64-docker-lambda):  This examples illustrates how to serve XGBoost model on Lambda Function on Graviton2 architecture to predict breast cancer.
 - **TensorFlow resources:**  
 
   - [**Serverless TensorFlow Model Serving**](tensorflow-inference-docker-lambda):  This examples illustrates how to serve TensorFlow model on Lambda Function for Object Detection.
