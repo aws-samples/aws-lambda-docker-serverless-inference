@@ -339,3 +339,5 @@ hebert-sentiment-analysis-inference-docker-lambda/.aws-sam/build.toml
 hebert-sentiment-analysis-inference-docker-lambda/samconfig.toml
 fasttext-inference-docker-lambda/.aws-sam/build.toml
 fasttext-inference-docker-lambda/samconfig.toml
+xgboost-inference-arm64-docker-lambda/.aws-sam/build.toml
+xgboost-inference-arm64-docker-lambda/samconfig.toml

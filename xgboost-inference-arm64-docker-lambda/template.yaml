@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  xgboost-inference-arm64-docker-lambda
+
+  SAM Template for xgboost-inference-arm64-docker-lambda
+
+Resources:
+  XGBoostInferenceArm64Function:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      PackageType: Image
+      MemorySize: 256
+      Timeout: 60
+      Architectures:
+        - arm64
+    Metadata:
+      DockerTag: python3.7-v1
+      DockerContext: .
+      Dockerfile: Dockerfile
+
+Outputs:
+  XGBoostInferenceArm64Function:
+    Description: "XGBoostInference Arm64 Lambda Function ARN"
+    Value: !GetAtt XGBoostInferenceArm64Function.Arn
+  XGBoostInferenceArm64FunctionIamRole:
+    Description: "Implicit IAM Role created for XGBoostInference Arm64 function"
+    Value: !GetAtt XGBoostInferenceArm64Function.Arn
