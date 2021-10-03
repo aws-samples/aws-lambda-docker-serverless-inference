@@ -2,6 +2,8 @@
 
 This examples illustrates how to serve XGBoost model on Lambda Function on Graviton2 architecture to predict breast cancer.
 
+In addition, there is a code sample to help you compare performance of the XGBoost x86_64 Lambda Function with Arm64 (Graviton2) one.
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - app - Code for the application's Lambda function.
