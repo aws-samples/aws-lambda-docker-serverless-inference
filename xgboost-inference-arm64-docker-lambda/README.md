@@ -8,6 +8,7 @@ This project contains source code and supporting files for a serverless applicat
 - train-code - Code for training XGBoost model based on breast cancer dataset.
 - events - Invocation events that you can use to invoke the function.
 - template.yaml - A template that defines the application's AWS resources.
+- invoke_x86_64_arm64_lambdas.py - Code to invoke x86_64 and Arm64 (Graviton2) Lambda Functions and compare performance.  
 
 The application uses several AWS resources, including Lambda functions. These resources are defined in the `template.yaml` file in this project. You can update the template to add AWS resources through the same deployment process that updates your application code.
 
@@ -63,6 +64,20 @@ xgboost-inference-arm64-docker-lambda$ sam local invoke XGBoostInferenceArm64Fun
 
 ![arm64 Architecture](../img/xgboost_arm_64_arch_view.png)
 
+## Compare performance of x86_64 Lambda Function with Arm64 (Graviton2) one
+
+You can achieve up to 34% better price/performance with AWS Lambda Functions powered by AWS Graviton2 processor.
+
+To test the performance improvements of the XGBoost x86_64 Lambda Function with an Arm64 (Graviton2) one yourself, please execute the following steps:
+1. Deploy the XGBoost x86_64 Lambda Function, as described [here](../xgboost-inference-docker-lambda/)
+2. Open `invoke_x86_64_arm64_lambdas.py` file.
+3. Replace `<XGBoost_x86_64_Lambda_ARN>` with XGBoost x86_64 Lambda Function ARN.
+4. Replace `<XGBoost_arm64_Lambda_ARN>` with XGBoost Arm64 (Graviton2) Lambda Function ARN.
+5. Run the following command: `python invoke_x86_64_arm64_lambdas.py`
+
+![xgboost x86_64 vs. arm64 improvement](../img/xgboost_x86_64_arm64_improvement.png)
+
+**We can see that the Arm64 (Graviton2) Lambda Function has performance improvements of 36% over the x86_64 one!**
 
 ## Testing your Lambda function in the Cloud
 
