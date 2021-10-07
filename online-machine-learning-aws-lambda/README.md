@@ -6,12 +6,16 @@ This project contains source code and supporting files for a serverless applicat
 
 This example includes the following files and folders:
 
-- app/lambda_inference/ - Code for the application's inference Lambda function
-- app/lambda_inference/ - Code for the application's training Lambda function
-- app/*/app.py - Code for the application's Lambda function.
-- app/*/Dockerfile - The Dockerfile to build the container image.
-- app/*/requirements.txt - The pip requirements to be installed during the container build.
-- template.yaml - A template that defines the application's AWS resources.
+- app/lambda_inference/         - Code for the application's inference Lambda function.
+- app/lambda_training/          - Code for the application's training Lambda function.
+- app/*/app.py                  - Code for the application's Lambda function.
+- app/*/Dockerfile              - The Dockerfile to build the container image.
+- app/*/requirements.txt        - The pip requirements to be installed during the container build.
+- template.yaml                 - A template that defines the application's AWS resources.
+- events/inference_event.json   - A sample payload to test the inference Lambda function locally.
+- events/train_event.json       - A sample payload to test the training Lambda function locally.
+- env.json                      - Json file to add the bucket name of your deployed S3 model bucket for local testing of the Lambda functions.
+- notebooks/test_notebook.ipynb - A Jupyter notebook to test the lambda function in the cloud by invoking them directly and through API Gateway.
 
 The application uses several AWS resources, including Lambda functions and an API Gateway API. These resources are defined in the `template.yaml` file in this project. You can update the template to add AWS resources through the same deployment process that updates your application code.
 
