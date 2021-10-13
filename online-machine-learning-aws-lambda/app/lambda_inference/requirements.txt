@@ -1,0 +1,2 @@
+aws-lambda-powertools==1.18.1
+scikit-learn==0.24.2
