@@ -23,4 +23,4 @@ Outputs:
     Value: !GetAtt HeBERTInferenceFunction.Arn
   HeBERTInferenceFunctionIamRole:
     Description: "Implicit IAM Role created for HeBERTInference function"
-    Value: !GetAtt HeBERTInferenceFunction.Arn
+    Value: !GetAtt HeBERTInferenceFunctionRole.Arn

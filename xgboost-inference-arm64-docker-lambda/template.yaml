@@ -25,4 +25,4 @@ Outputs:
     Value: !GetAtt XGBoostInferenceArm64Function.Arn
   XGBoostInferenceArm64FunctionIamRole:
     Description: "Implicit IAM Role created for XGBoostInference Arm64 function"
-    Value: !GetAtt XGBoostInferenceArm64Function.Arn
+    Value: !GetAtt XGBoostInferenceArm64FunctionRole.Arn
